@@ -1,0 +1,446 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;border:0;margin:0;list-style:none;text-decoration:none;}
+
+#main .enter{
+	border: 1px solid #086229;
+	width: 110px;
+	height: 110px;
+	float: left;
+	border-radius: 50%;
+	transition:box-shadow 0.6s ease-in 0s;
+	-webkit-transition:box-shadow 0.6s ease-in 0s;
+  	-o-transition:box-shadow 0.6s ease-in 0s;
+  	-moz-transition:box-shadow 0.6s ease-in 0s;
+	margin-top: 340px;
+	margin-left: -587px;
+	position: relative;
+}
+
+#main .enter:hover{box-shadow: 0 0 0 55px #AABC3B inset;}
+#main .enter:hover .intro3{color: #CBCBCB;}
+#main .intro3{
+	font-size: 30px;
+	color: #613662;
+	font-family:Gulim;
+	vertical-align: middle;
+	position: absolute;
+	top: 37px;
+	left:15px;
+}
+
+#main{
+	width: 100%;
+	background: url(../images/BJ_Area1.jpg) repeat-y;
+	font-family: 微软雅黑;
+	height: 2132px;
+}
+#main .logo {
+	float: left;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+#main .icon1,.icon2{
+	font-family:'wangfei';
+	font-size: 30px;
+	color: #7C7C7E; 
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	padding: 5px;
+	border:1px solid black;
+	width:45px;height:45px;
+	border-radius: 1em;
+}
+#val{
+	float: right;
+	width: 80px;
+	height: 25px;
+	background-color: transparent;
+	margin-top: 40px;
+margin-right: 10px;}
+
+#pass,#username{
+	width:150px;
+	height:25px;
+	float:right;
+	margin-top:40px;
+	margin-right:20px;
+	border:1px solid #231F20;
+	background-color:#E2D0BA
+}
+#main .icon1{margin-right: 10px;}
+#main .shuo p{
+	float: right;
+	font-size: 15px;
+	color: black;
+	font-family: 微软雅黑;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+#main .meun{
+	border: 1px 1px 0px 1px;
+	border-style:solid;
+	border-color: #241C1C;
+	background-color: #241C1C;
+	height: 30px;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	border-radius: 0.5em;
+}
+#main .meun p{
+	font-size:12px;
+	color:#606060;
+	line-height:20px;
+}
+#main .meun a{
+	text-align:center;
+	line-height:26px;
+	font-size:15px;
+	color:#fff;
+}
+#main .meun span{
+	vertical-align: middle;
+	border:none;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#main .href1{
+	margin-left: 250px;
+}
+.promo{
+ 	height: 460px;
+ 	width: 1300px;
+ 	margin-left: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.promo i{
+	font-family: 'wangfei';
+	position: absolute;
+	top: 210px;
+	width: 50px;
+	height: 50px;
+	font-style: normal;
+	color: #B7B7B7;
+	text-align: center;
+	line-height: 40px;
+	font-size: 40px;
+	cursor: pointer;
+}
+.promo ul{
+	width: 6500px;
+	overflow: hidden;
+	position: absolute;
+	top: -10px;
+	left:-8px;
+}
+.promo ul li{
+	float: left;
+}
+#main .content{
+	width:auto;
+	height: 700px;
+	margin-top: 20px;
+	position: relative;
+}
+#top10 .t1{
+	margin-left: 200px;
+	font-family: Impact;
+	font-size: 42px;
+	color: #C5361A;
+}
+#top10 .t2{
+	margin-left: 10px;
+	font-family: 微软雅黑;
+	font-size:25px;
+	color: #363636;
+}
+#xxk{margin-left: 120px; margin-top: 20px;}
+#span_nz,#span_jj,#span_ps,#span_hfp{
+		display: block;
+		float: left;
+		width: 177px;
+		height: 25px;
+		background-color: white;
+		border-top:2px solid #241C1C;
+		border-left: 1px solid #CFCFCF;
+		text-align: center;
+		line-height: 30px;
+		font-size: 15px;
+	}
+#span_jj,#span_ps,#span_hfp{
+		background-color: #F8F8F8;
+		border-bottom: 1px solid #CFCFCF;
+
+	}
+#span_hfp{border-right:1px solid #CFCFCF; }
+	ul{
+		clear: both;
+		margin-top: 10px;
+		margin-left: 8px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+	#jj,#ps,#hfp{
+		display: none;
+	}
+
+	#nz img{
+		float: left;
+		width:20%;
+		height:auto;
+		margin-left: 29px;
+		margin-top: 10px;
+	}
+	#hfp img{
+		float: left;
+		width:20%;
+		height:auto;
+		margin-left: 29px;
+		margin-top: 10px;
+	}
+	#ps img{
+		float: left;
+		width:20%;
+		height:auto;
+		margin-left:29px;
+		margin-top: 10px;
+	}
+	#jj img{
+		float: left;
+		width:20%;
+		height:auto;
+		margin-left: 29px;
+		margin-top: 10px;
+	}
+	#jj .1{
+		width: 50%;
+	}
+	#main .content ul{
+		height: 248px;
+		width: 710px;
+		background:#764040;
+	position: absolute;
+	top: 90px;
+	left: 28px;
+	}
+	#jj,#nz{
+		margin-left: 92px;
+	}
+
+.footerPartT {
+    border: 1px solid #000;
+    float: left;
+    height: 215px;
+    padding: 30px 60px;
+    text-align: center;
+    width: 230px;
+    position: relative;
+    margin-left: 20px;
+}
+.foInsTwo {
+    background: #000000 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font: 12px "微软雅黑";
+    height: 30px;
+    text-align: center;
+    width: 60px;
+}
+.footerPartT input.foIns {
+    border: 1px solid #ccc;
+    color: #ccc;
+    float: left;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+    width: 140px;
+}
+input, label {
+    vertical-align: middle;
+}
+.blackBtn {
+    background: #000000 none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font: 12px/30px "微软雅黑";
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footerPartT {
+    text-align: center;
+}
+.font24 {
+    font-size: 24px;   
+    font-weight: bold;
+
+}
+
+	#news1{
+		border: 1px dashed #582C2C;
+		float:left;
+		width: 450px;
+		height: 535px;
+		margin-left: 150px;
+		margin-top: 20px;
+		border-radius: 0.5em;
+		padding: 5px;
+	}
+	#fashion .news1,.news2,.news3,.news4{
+		border: 1px dashed #582C2C;
+		width: 230px;
+		height: 250px;
+		margin-top: 20px;
+		margin-right: 20px;
+		float: left;
+		border-radius: 0.5em;
+		padding: 5px;
+		margin-left: 20px;
+	}
+
+.footer .filedset {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black black black -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: inline;
+    float: left;
+    padding: 15px 0 10px;
+    width: 724px;
+}
+.footer {
+    color: black;
+    text-align: left;
+}
+.footer .legend {
+    background: white none repeat scroll 0 0;
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: -25px 0 0 350px;
+    padding: 0 8px;
+    position: relative;
+}
+.footer .legend_r {
+    display: inline;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: -25px 0 0 95px;
+    padding: 0 4px;
+    position: relative;
+}
+.footer .filedset_r {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black -moz-use-text-color;
+    border-image: none;
+    border-style: solid none;
+    border-width: 1px medium;
+    float: right;
+    padding: 15px 0 10px;
+    width: 265px;
+}
+.footer-container dl.footimg {
+    width: 1600px;
+}
+.footer .tele {
+    height: 75px;
+}
+.footer .tele li b {
+    display: inline;
+    float: left;
+    height: 30px;
+    margin: 10px 5px 32px 0;
+    width: 30px;
+}
+.footer-container #help-list2 {
+    margin-left: 0;
+    width: 110px;
+}
+.footer .tele li span, .footer .tele li a {
+    font: 12px/23px "Helvetica";
+}
+
+.footer .tele li.last b {
+    background-position: -71px -9px;
+}
+
+.footer .tele li.last_r {
+    border: 0 none;
+    float: right;
+    width: 215px;
+}
+.footer .tele li {
+    border-right: 1px solid black;
+    display: inline;
+    float: left;
+    font: 14px/23px "Helvetica";
+    margin: 0 2px 0 10px;
+    width: 240px;
+}
+
+.footer .tele li.last {
+    border: 0 none;
+    float: right;
+    margin-right: 0;
+    width: 200px;
+}
+
+.footer .tele li.last a, .footer .tele li.last_r a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+.footer .block {
+    padding: 10px 15px;
+    position: relative;
+}
+.footer-container dl {
+    padding-left: 10px;
+    width: 115px;
+}
+.footer dt {
+    font-weight: bold;
+    padding: 12px 0 5px 15px;
+}
+.footer dd {
+    line-height: 20px;
+    margin: 0;
+    text-indent: 15px;
+	font-size: 12px;
+	color:black;
+	text-decoration: none;
+}
+.footer a {
+	color: black;
+}
+.footer dl {
+    float: left;
+}
+
+
+.footer-container #help-list5 {
+    width: 108px;
+}
+.footer {
+    color: black;
+    text-align: left;
+}
